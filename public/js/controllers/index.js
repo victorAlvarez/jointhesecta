@@ -1,4 +1,4 @@
-window.angular.module('ngff.controllers.index', [])
+window.angular.module('jst.controllers.index', [])
   .controller('IndexController', [
     function() {
 
