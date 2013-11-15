@@ -3,7 +3,7 @@ extends auth
 block auth
     form.form-horizontal(action="/users/session", method="post")
         h2 Zona clientes
-        .alert.alert-error= message
+        p=message
         .control-group
             label.control-label(for='email') Email
             .controls
