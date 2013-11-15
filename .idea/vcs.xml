@@ -2,7 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="" />
-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.." vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../../../../Victor-BoookPro/public_html/joinTheSecta2/trunk" vcs="svn" />
   </component>
 </project>
 
