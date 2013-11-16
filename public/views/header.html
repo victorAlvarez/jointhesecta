@@ -3,16 +3,9 @@
 		<ul class="nav">
 			<li><a class="brand" href="/">JTS</a></li>
 			<li class="divider-vertical"></li>
-			<li><a href="/">Home</a></li>
-			<li class="divider-vertical"></li>
-			<li><a>Quienes somos</a></li>
-			<li class="divider-vertical"></li>
-			<li><a>Nuestra filosof&iacute;a</a></li>
-			<li class="divider-vertical"></li>
-			<li><a>Modulos</a></li>
-			<li class="divider-vertical"></li>
-			<li><a>Contacta</a></li>
-			<li class="divider-vertical"></li>
+			<li ng-repeat="entry in navbarEntries">
+                <a href="./#!/{{entry.link}}">{{entry.title}}</a>
+			</li>
 		</ul>
 		<ul class="nav pull-right" ng-hide="global.isSignedIn()">
 			<li class="divider-vertical"></li>
