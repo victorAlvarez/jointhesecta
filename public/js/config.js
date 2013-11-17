@@ -21,6 +21,10 @@ window.app.config(['$routeProvider', function ($routeProvider) {
         {
             templateUrl: 'views/contact.html'
         })
+        .when('/hosting',
+        {
+            templateUrl: 'views/hosting.html'
+        })
         .otherwise({redirectTo: '/'});
 }]);
 

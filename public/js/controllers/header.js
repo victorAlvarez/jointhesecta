@@ -17,6 +17,10 @@ window.angular.module('jst.controllers.header', [])
                     "link" : "modules"
                 },
                 {
+                    "title" : "Hosting",
+                    "link" : "hosting"
+                },
+                {
                     "title" : "Contacta",
                     "link" : "contact"
                 }
