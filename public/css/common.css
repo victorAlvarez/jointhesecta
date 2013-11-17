@@ -23,3 +23,29 @@ footer p{
      padding: 5px 0 12px 10px;
 }
 
+body > .navbar .brand {
+  padding-right: 0;
+  padding-left: 0;
+  margin-left: 20px;
+  float: right;
+  font-weight: bold;
+  color: #000;
+  text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
+
+}
+
+.navbar .nav > li {
+	-webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    transition: all .3s linear;
+	text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
+	
+}
+
+.navbar .nav > li:hover, .navbar .nav > li:active {
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.4);
+  background-color: black !important;
+  border-radius: 20px;
+}
+	
