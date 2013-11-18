@@ -4,7 +4,7 @@ window.app = angular.module('JoinTheSecta', ['ngCookies', 'ngResource', 'ui.boot
 // Controladores
 window.angular.module('jst.controllers', [
     'jst.controllers.header', 'jst.controllers.index', 'jst.controllers.whoweare', 'jst.controllers.phylosofy',
-    'jst.controllers.modules', 'jst.controllers.contact', 'jst.controllers.hosting'
+    'jst.controllers.modules', 'jst.controllers.mensajes', 'jst.controllers.hosting'
 ]);
 // Servicios
 window.angular.module('jst.services', [

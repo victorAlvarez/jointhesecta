@@ -23,3 +23,16 @@ exports.user = {
       next()
     }
 }
+
+
+/**
+ * Mensaje authorizations routing middleware
+ */
+exports.mensaje = {
+    hasAuthorization: function(req, res, next) {
+        if (req.mensaje.user.id != req.user.id) {
+            return res.send(401, 'User is not authorized');
+        }
+        next();
+    }
+};
